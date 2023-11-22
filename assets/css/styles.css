@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1;
+}
+
+
+#carrito-icon {
+    width: 30px;
+    cursor: pointer;
+    margin: 4px;
+    float: right;
+}
+
+.curso {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    background-color: white;
+}
+
+#carrito {
+    float: right;
+    background-color: #f0f0f0;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 50%;
+    max-width: 300px;
+}
+
+.oculto {
+    display: none;
+}
+
+html {
+    font-size: 13pt;
+}
+
+@media screen and (max-width: 1680px) {
+
+    html {
+        font-size: 12pt;
+    }
+
+}
+
+@media screen and (max-width: 1280px) {
+
+    html {
+        font-size: 11pt;
+    }
+
+}
+
+@media screen and (max-width: 360px) {
+
+    html {
+        font-size: 10pt;
+    }
+
+}
+
+.responsive-img {
+    max-width: 100%;
+    height: auto;
+}
+
+@media screen and (max-width: 600px) {
+    #carrito {
+        width: 100%;
+        max-width: none;
+    }
+
+    h1,
+    h2,
+    p,
+    button {
+        letter-spacing: 0.1px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #carrito {
+        width: 100%;
+        max-width: none;
+    }
+
+    #carrito {
+        padding: 5px;
+        margin: 5px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #carrito {
+        width: 100%;
+        max-width: none;
+        padding: 5px;
+        margin: 5px;
+    }
+}

@@ -1,0 +1,100 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Tienda Online</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<link rel="stylesheet" href="assets/css/styles.css" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper" class="fade-in">
+
+				<!-- Intro -->
+					<div id="intro">
+						<h1>Cripto<br />
+						Imagin</h1>
+						<p>Tienda de cursos online<a href="https://html5up.net/license"></a>.</p>
+						<ul class="actions">
+							<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
+						</ul>
+					</div>
+
+				<!-- Header -->
+					<header id="header">
+						<a href="index.html" class="logo">CriptoImagin</a>
+					</header>
+
+				<!-- Nav -->
+					<nav id="nav">
+						<ul class="links">
+							<li><a href="index.html">Noticias</a></li>
+							<li class="active"><a href="generic.html">Cursos online</a></li>
+							<li><a href="#">Archivos informativos</a></li>
+						</ul>
+						<ul class="icons">
+							<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+							<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+							<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+							<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Featured Post -->
+							<article class="post featured">
+								<header class="major">
+									<h2><a href="generic.html">Tienda de<br />
+									Cursos Online</a></h2>
+								</header>
+								<a href="generic.html" class="button large">Tienda</a>
+								</ul>
+							</article>
+							
+							<!--Cursos-->
+							<div class="curso" data-nombre="Curso 40 Horas" data-precio="19.99">
+
+								<!--Carrito-->
+								<p style="text-align: right;">Carrito<img src="images/carrito.png" alt="Carrito de Compras" id="carrito-icon" onclick="mostrarCarrito()"></p>
+
+								<!--Curso 1-->
+								<img src="images/imagencurso.jpg" alt="Curso 1" class="responsive-img">
+								<h2>Curso de Inversion 40 Horas</h2>
+								<p>Este curso le aporta todos los videos y pdf necesarios para saber todo lo que necesitas sobre inversion de criptomonedas</p>
+								<p>Precio: $19.99</p>
+								<button onclick="agregarAlCarrito('Curso 40 Horas', 19.99)">Agregar al Carrito</button>
+							</div>
+
+								<!--Examen Curso 1-->
+							<div class="curso" data-nombre="Examen Titulacion" data-precio="5.99">
+								<img src="images/imagencurso.jpg" alt="Examen 1" class="responsive-img">
+								<h2>Examen Curso de Inversion</h2>
+								<p>Este examen al aprobarlo le aportaria una titulacion validada por la empresa</p>
+								<p>Precio: $5.99</p>
+								<button onclick="agregarAlCarrito('Examen Titulacion', 5.99)">Agregar al Carrito</button>
+							</div>
+						</section>
+
+						<aside id="carrito" class="oculto" class="responsive">
+							<h2>Carrito de Compras</h2>
+							<ul id="lista-carrito"></ul>
+							<p>Total: $<span id="total-carrito">0.00</span></p>
+							<button onclick="pagarAhora()">Pagar Ahora</button>
+						</aside>
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+			<script src="assets/js/script.js"></script>
+
+	</body>
+</html>
